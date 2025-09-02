@@ -1,33 +1,36 @@
-# Canvas Tetris
+# Canvas Tetris 🎮
 
-A simple Tetris clone built with HTML5 Canvas and JavaScript.
+A simple Tetris clone built with **HTML5 Canvas** and **JavaScript**.
 
-## Features
-- Classic 10x20 Tetris board
+## 🚀 Play Online
+- **GitHub Pages:** [https://HimanshuChowdary.github.io/canvas-tetris](https://HimanshuChowdary.github.io/canvas-tetris)
+- **Vercel:** [https://canvas-tetris.vercel.app](https://canvas-tetris-wine.vercel.app)
+
+## ✨ Features
+- Classic 10×20 Tetris board
 - 7-bag randomizer for fair piece distribution
 - Score, lines, and level tracking
 - Ghost piece preview
 - Next piece preview (centered/scaled)
-- Pause/resume
+- Pause & resume
 - Touch controls for mobile
-- Self-test checks in console for core game logic
+- Game over input lock (no moving/spawning after game ends)
+- Console self-tests for core logic
 
-## Controls
+## 🎮 Controls
 **Keyboard:**
-- Move: Left / Right arrow keys
-- Soft drop: Down arrow
-- Rotate: Up arrow or `Z`
-- Hard drop: Spacebar
-- Pause: `P`
+- Move: ← / →  
+- Soft drop: ↓  
+- Rotate: ↑ or `Z`  
+- Hard drop: `Space`  
+- Pause: `P`  
 - Restart: `R`
 
 **Touch (mobile):**
-- On-screen buttons for move, rotate, soft drop, and hard drop.
+- On-screen buttons for move, rotate, drop, hard drop.
 
-## Run Locally
-Open `index.html` in any modern browser. No build step needed.
-
-## Deploy to GitHub Pages
-1. Create a GitHub repo and push this folder.
-2. In **Settings → Pages**, select branch `main` and folder `/ (root)`.
-3. Your site will appear at `https://<username>.github.io/<repo-name>/`.
+## 🛠 Run Locally
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/HimanshuChowdary/canvas-tetris.git
+   cd canvas-tetris
